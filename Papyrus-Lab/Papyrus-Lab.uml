@@ -105,7 +105,7 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_Fu5voDTpEemU7dv-pk_54g" name="password" visibility="private" aggregation="shared">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_X0wP0jTrEemU7dv-pk_54g" name="cart" type="_Lr1LoDTqEemU7dv-pk_54g" association="_X0vowDTrEemU7dv-pk_54g"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_X0wP0jTrEemU7dv-pk_54g" name="cart" type="_Lr1LoDTqEemU7dv-pk_54g" aggregation="composite" association="_X0vowDTrEemU7dv-pk_54g"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_dIJcETTrEemU7dv-pk_54g" name="order" type="_Z9tgYDTrEemU7dv-pk_54g" association="_dIIN8DTrEemU7dv-pk_54g">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v43JEDTrEemU7dv-pk_54g"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_v45lUDTrEemU7dv-pk_54g" value="*"/>
@@ -164,7 +164,7 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_X0wP0zTrEemU7dv-pk_54g" name="registered customer" type="_0JsQoDThEemU7dv-pk_54g" association="_X0vowDTrEemU7dv-pk_54g"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_Z9tgYDTrEemU7dv-pk_54g" name="Order">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_eFIBsTTrEemU7dv-pk_54g" name="payment" type="_bkIEkDTrEemU7dv-pk_54g" association="_eFGzkDTrEemU7dv-pk_54g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_eFIBsTTrEemU7dv-pk_54g" name="payment" type="_bkIEkDTrEemU7dv-pk_54g" aggregation="composite" association="_eFGzkDTrEemU7dv-pk_54g"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_fCgjQDoKEemjIogQ83tqeQ" name="orderId" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
